@@ -1,0 +1,34 @@
+<html >
+<head>
+
+    <title>Formulario de Solicitud</title>
+			<link rel="stylesheet" href="evaluacion.css">
+</head>
+<body>
+
+    <!-- Formulario -->
+
+    <h1>Solicitar Información</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="tipo-información">Tipo de información que solicita:</label><br>
+        <select id="tipo-información" name="tipo-información" required>
+            <option value="hospedaje">Hospedaje</option>
+            <option value="reserva-vuelo">Reservación de vuelo</option>
+            <option value="reserva-hotel">Reservación de hotel</option>
+            <option value="sugerencias">Sugerencia de lugares a visitar</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+    <!-- Hipervínculo de regreso a la primera página -->
+    <p><a href="Evaluacion.html">Regresar a la página principal</a></p>
+</body>
+</html>
